@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>Squealr | Profile</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/pig.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch,Array.prototype.includes"></script>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+</head>
+<body>
+    <!---->
+        <div class="col-sm-3">
+             <div class="brand"><img src="img/squealr.png" alt="Squealr Logo" /></div>
+        </div>
+        <div class="col-sm-2 col-sm-offset-7 text-center">
+                    <a href="users.html"><div class="glyphicon glyphicon-circle-arrow-left back"></div></a>
+                    <div id="logout" class="glyphicon glyphicon-log-out logout"></div>
+        </div>
+            <div class="col-sm-4 col-sm-offset-1 input-boxes">
+                <div class="text-center">
+                    <img id="logo" class="img-circle profile" src="img/piglogo.png" alt="Squealr Logo" />
+                    <p id="profileUser">Profile User</p>
+                 </div>
+            <div class="col-sm-12">
+                <ul class="list-group">
+                    <li id="followers" class="list-group-item followers">
+                        <span class="badge">14</span>
+                            Followers
+                    </li>
+                </ul>
+            </div>
+            </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4">
+                <div class="form-group">
+                    <label for="password"></label>
+                <input type="text" class="form-control" id="squeals" placeholder="Squeal">
+                </div>
+                 <button id="signin" type="button" class="btn btn-default btn-block signup-button btn-font">
+                     Send Squeal
+                </button>
+                <!--List of Squeals-->
+                <ul class="list-group users" id="message">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/profile.js"></script>
+    <script src="js/users.js"></script>
+    <script src="js/sendsqueal.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+body {
+    background-image: url("../img/agriculture.png");
+    display: cover;
+}
+.logo {
+    max-width: 215px;
+}
+.middle-pan {
+    margin-top: 100px;
+}

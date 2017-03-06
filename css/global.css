@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+body {
+    background: linear-gradient(rgba(255, 204, 229, 0.75), rgba(255, 204, 229, 0.75)),
+                rgba(255,204,229,0.75) url('../img/agriculture.png') no-repeat center;
+}
+#logo {
+    max-width: 100px;
+}
+.brand {
+    max-width:150px;
+}
+.input-boxes{
+    background: white;
+    box-shadow:0px 1px 6px #888888;
+}
+
+.signup-button {
+    margin: 0px 0px 16px 0px;
+    background-color: hotpink;
+    color: white;
+}
+.signin-button {
+    margin: 0px 0px 16px 0px;
+    background-color: black;
+    color: white;
+}
+.navigation {
+    background-color: white;
+    box-shadow:0px 1px 6px #888888;
+}
+.logout {
+    font-size:40px;
+    padding: 17px 22px 0px 0px;
+}
+.logout:hover {
+    transition: all .3s ease;
+}
+.brand {
+    max-width: 300px;
+}

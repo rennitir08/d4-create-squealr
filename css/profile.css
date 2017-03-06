@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.followers {
+    background-color: #ff4699;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.profile {
+    background-color: tan;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p {
+    font-family: 'Sansita', sans-serif;
+    font-size: 18px;
+}
+.btn-font {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+}
+.badge {
+    color: deeppink;
+    background-color: white;
+}
+.back {
+    font-size: 38px;
+    color: deeppink;
+}
